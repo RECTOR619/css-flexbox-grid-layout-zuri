@@ -1,0 +1,181 @@
+/* flex-Box */
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* BODY */
+
+body {
+    background-color: hsl(0, 0%, 95%);
+    Font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+
+
+/* P */
+
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+}
+
+
+/* H1 */
+
+h1 {
+    color: hsl(0, 0%, 95%);
+    height: 1px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 700;
+}
+
+
+/* BIG CONTAINER */
+
+.big-container {
+    width: 63%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+/* FIRST CARD */
+
+.first-container {
+    background-color: hsl(31, 77%, 52%);
+    color: hsla(0, 0%, 100%, 0.75);
+    height: 60%;
+    width: 50%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    line-height: 25px;
+    letter-spacing: 2px;
+    padding: 20px 15px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+
+/* SECOND CARD */
+
+.second-container {
+    background-color: hsl(184, 100%, 22%);
+    color: hsla(0, 0%, 100%, 0.75);
+    height: 60%;
+    width: 50%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    line-height: 25px;
+    letter-spacing: 2px;
+    padding: 20px 15px;
+}
+
+
+/* THIRD CARD */
+
+.third-container {
+    background-color: hsl(179, 100%, 13%);
+    color: hsla(0, 0%, 100%, 0.75);
+    height: 60%;
+    width: 50%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    line-height: 25px;
+    letter-spacing: 2px;
+    padding: 20px 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+
+/* FIRST CARD BUTTON */
+
+#but1 {
+    font-size: 18px;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+    border: none;
+    border-radius: 25px;
+    padding: 15px 33px;
+}
+
+#but1:hover {
+    font-size: 18px;
+    background-color: hsl(31, 77%, 52%);
+    border-style: groove;
+    color: white;
+    border-color: white;
+    border-radius: 25px;
+    padding: 15px 33px;
+    cursor: pointer;
+}
+
+
+/* SECOND CARD BUTTON */
+
+#but2 {
+    font-size: 18px;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+    border: none;
+    border-radius: 25px;
+    padding: 15px 33px;
+}
+
+#but2:hover {
+    font-size: 18px;
+    background-color: hsl(184, 100%, 22%);
+    border-style: groove;
+    color: white;
+    border-color: white;
+    border-radius: 25px;
+    padding: 15px 33px;
+    cursor: pointer;
+}
+
+
+/* THIRD CARD BUTTON */
+
+#but3 {
+    font-size: 18px;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+    border: none;
+    border-radius: 25px;
+    padding: 15px 33px;
+}
+
+#but3:hover {
+    font-size: 18px;
+    background-color: hsl(179, 100%, 13%);
+    border-style: groove;
+    color: white;
+    border-color: white;
+    border-radius: 25px;
+    padding: 15px 33px;
+    cursor: pointer;
+}
+
+
+/* FLEX AND GRID LINK */
+
+.link {
+    font-size: 18px;
+    background-color: rgb(221, 189, 189);
+    border: none;
+    border-radius: 25px;
+    padding: 15px 33px;
+}
+
+a {
+    text-decoration: none;
+}

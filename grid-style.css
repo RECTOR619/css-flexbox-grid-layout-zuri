@@ -1,0 +1,80 @@
+/* grid-style */
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* BODY */
+
+body {
+    background-color: rgb(70, 4, 70);
+}
+
+
+/* BIG G */
+
+.big-g {
+    display: grid;
+    column-gap: 15px;
+    margin: 20px auto;
+    row-gap: 15px;
+    width: 1000px;
+    height: 700px;
+    grid-template-areas: 'rede rede rede rede rede rede yellowe yellowe yellowe' 'rede rede rede rede rede rede yellowe yellowe yellowe' 'greene greene greene greene bluew bluew bluew bluew bluew' 'greene greene greene greene blued blued blued blued blued';
+}
+
+
+/* FIRST F */
+
+.first-f {
+    background-color: blue;
+    grid-area: rede;
+}
+
+
+/* SECOND F */
+
+.second-f {
+    background-color: brown;
+    grid-area: yellowe;
+}
+
+
+/* FG */
+
+.fg {
+    background-color: yellow;
+    grid-area: greene;
+}
+
+
+/* FIRST G */
+
+.first-g {
+    background-color: red;
+    grid-area: bluew;
+}
+
+
+/* SECOND G */
+
+.second-g {
+    background-color: red;
+    grid-area: blued
+}
+
+
+/* FLEX AND GRID LINK */
+
+.link {
+    font-size: 18px;
+    background-color: rgb(221, 189, 189);
+    border: none;
+    border-radius: 25px;
+    padding: 15px 33px;
+}
+
+a {
+    text-decoration: none;
+}
